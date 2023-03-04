@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form>
+        <!-- <label for="FirstName">First Name</label>
+        <input id="FirstName" type="text"> -->
+
+        <label>
+            First Name
+            <input type="text">
+        </label>
+
+        <label>
+            Last Name
+            <input type="text">
+        </label>
+
+        <label>
+            E-mail
+            <input type="email">
+        </label>
+
+        <label>
+            Mobile Number
+            <input type="tel">
+        </label>
+
+        <label>
+            Favorite Colour
+            <input type="color">
+        </label>
+
+        <label>
+            File
+            <input type="file" value="Choose File">
+        </label>
+
+        <label>
+            Commentary
+            <textarea id="message" cols="30" rows="10"></textarea>
+        </label>
+
+        <label>
+            State
+            <select>
+                <option>California</option>
+                <option>Oregon</option>
+                <option>Washington</option>
+                <option>North Dakota</option>
+            </select>
+        </label>
+
+        <fieldset>
+            <legend>Choose a vehicle</legend>
+            <input id="March" type="radio" name="veiculo"><label for="March">Nissan March</label>
+            <input id="C3" type="radio" name="veiculo"><label for="C3">Citroën C3</label>
+            <input id="Spin" type="radio" name="veiculo"><label for="Spin">Chevrolet Spin</label>
+            <input id="T-Cross" type="radio" name="veiculo"><label for="T-Cross">Volkswagem T-Cross</label>
+        </fieldset>
+
+        <br><br> <!-- do not use, breaks line -->
+
+        <!-- fieldset>(legend+(input+label)*3) -->
+        <fieldset>
+            <legend>Which colours do you like most?</legend>
+            <input id ="Pink" name="colour" type="checkbox">
+            <label for="Pink">Pink</label>
+            <input id = "Black" name="colour" type="checkbox">
+            <label for="Black">Black</label>
+            <input id = "Red" name="colour"type="checkbox">
+            <label for="Red">Red</label>
+        </fieldset>
+
+        <input type="submit" value="Send">
+    </form>
+</body>
+
+</html>
