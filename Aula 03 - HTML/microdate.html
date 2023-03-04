@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <title>Microdata</title>
+    <!-- div>article>(h1+p+div>(img+footer)) -->
+    <div>
+        <article itemscope itemtype="https://schema.org/movie">
+            <h1 itemprop="name">Mamma Mia</h1>
+            <p itemprop="abstract">A musical about a girl living in Greece</p>
+            <div>
+                <img width="540" itemprope="image" src="https://akamai.sscdn.co/tb/letras-blog/wp-content/uploads/2022/04/19c5eeb-mamma-mia-1024x683.jpg" alt="Mamma Mia movie">
+                <footer itemprop="director" itemscope itemtype="https://schema.org/person">
+                    <span itemprop="name">Director: Bradley Cooper.</span>
+                    <span itemprop="birthdate"> February 2, 2010</span>
+                </footer>
+            </div>
+        </article>
+    </div>
+</body>
+</html>
