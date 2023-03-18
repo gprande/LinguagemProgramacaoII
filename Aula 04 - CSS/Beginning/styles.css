@@ -1,0 +1,68 @@
+h1 {
+    color: blueviolet;
+}
+p {
+    color: royalblue
+}
+
+strong {
+    color: red;
+}
+
+/* id selector */
+#pageTitle {
+    color: crimson;
+    text-align: center;
+}
+#description {
+    color: aquamarine;
+    text-align: center;
+    font-size: 36px;
+}
+
+/* class selector */
+.offers {
+    background-color: grey;
+    text-align: center;
+    color: black;
+}
+
+/* class and type selector */
+p.offers {
+    background-color: grey;
+    text-align: center;
+    color: black;
+}
+
+.new {
+    color: white;
+}
+
+p#footer {
+    color: chartreuse;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    font-family:Arial;
+}
+
+article {
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* select more than one class/id */
+.courses, .new-courses {
+    background-color: teal;
+    color:white;
+    border: 1px solid teal;
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+    height: 75px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    display: block;
+    
+}
+
