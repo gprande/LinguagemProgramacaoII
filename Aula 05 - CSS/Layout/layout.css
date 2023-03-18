@@ -4,10 +4,10 @@ body {
 }
 
 .engineering, .math, .pharmacy {
-    display: inline-block;
+    /* display: inline-block; */
     border: 1px solid black;
     padding: 12px;
-    width: 300px;
+    /* width: 300px; */
     height: 80px;
 }
 
@@ -16,4 +16,16 @@ main{
     width:100%;
     margin:0;
     text-align: center;;
+}
+@media(min-width:550px){
+    .engineering, .math, .pharmacy {
+        background-color: aliceblue;
+    }
+}
+
+@media(min-width:900px){
+    .engineering, .math, .pharmacy {
+        display: inline-block;
+        background-color: red;
+    }
 }
