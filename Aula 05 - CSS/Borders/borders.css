@@ -1,0 +1,17 @@
+a{
+    /* border-width: thick;
+    border-color: red;
+    border-style: solid; */
+    /* border: thick red solid; */
+    border-top: 10px solid blue;
+    border: thick black dashed;
+}
+
+.advocacy{
+    border-bottom: 1px solid #000;
+}
+
+.engineering{
+    border: 1px solid black;
+    border-radius: 20px 50px;
+}
