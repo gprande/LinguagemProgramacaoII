@@ -1,0 +1,12 @@
+html{
+    font-size: 100%;
+}
+body {
+    font-size: 14px;
+}
+article{
+    border: 2px solid #ccc;
+    background-color: aliceblue;
+    width: 80%;
+    padding: 20px;
+}

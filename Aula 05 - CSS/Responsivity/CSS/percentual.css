@@ -1,0 +1,20 @@
+p{
+    font-size: 240%;
+}
+
+article{
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    width: 40%;
+    margin-top: 25%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.principal{
+    background-color: cornsilk;
+    width: 1200px;
+    margin: 0 auto;
+}
