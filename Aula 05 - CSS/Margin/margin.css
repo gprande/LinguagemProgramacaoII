@@ -1,0 +1,19 @@
+.first, .second{
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.first{
+    margin-left: 0;
+}
+
+body{
+    border: 1px solid blue;
+    margin:0;
+}
+
+html{
+    border: 1px solid red;
+}
